@@ -22,7 +22,7 @@ export const authenticate = async (req, res, next) => {
     }
 
     // Verify token
-    const decoded = jwt.verify(token, "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEyMzQ1IiwiZW1haWwiOiJ0ZXN0QGV4YW1wbGUuY29tIiwiaWF0IjoxNjk4NjIyNjAwLCJleHAiOjE2OTg2MjYyMDB9.jg6D8g8WvUJ7xBejLwBpBqvZ-C0xA_vc_vOKsdhDLyk");
+    const decoded = jwt.verify(token, "token");
     
     // Check session
     const session = await Session.findOne({ 
