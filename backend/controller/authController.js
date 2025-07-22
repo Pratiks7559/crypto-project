@@ -3,7 +3,7 @@ import User from '../models/User.js';
 import Session from '../models/Session.js';
 import bcrypt from 'bcryptjs';
 
-const JWT_SECRET = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEyMzQ1IiwiZW1haWwiOiJ0ZXN0QGV4YW1wbGUuY29tIiwiaWF0IjoxNjk4NjIyNjAwLCJleHAiOjE2OTg2MjYyMDB9.jg6D8g8WvUJ7xBejLwBpBqvZ-C0xA_vc_vOKsdhDLyk";
+const JWT_SECRET = " ";
 const JWT_EXPIRES_IN = '20h' || '1h';
 
 // Validate email format
