@@ -1,0 +1,58 @@
+.about-page {
+  background: linear-gradient(135deg, #1f2a40, #4f5f7d);
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+
+.about-section {
+  padding: 4rem 2rem;
+  text-align: left;
+}
+
+.about-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.highlight {
+  color: #3b82f6;
+}
+
+.about-description {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #ccc;
+  margin-bottom: 1.5rem;
+}
+
+.about-list {
+  padding-left: 2rem;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.about-list li {
+  margin-bottom: 0.5rem;
+  color: #ddd;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-title {
+    font-size: 2.2rem;
+  }
+
+  .about-description {
+    font-size: 1rem;
+  }
+
+  .about-list {
+    padding-left: 1.2rem;
+  }
+}

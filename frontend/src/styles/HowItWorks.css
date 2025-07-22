@@ -1,0 +1,54 @@
+.howitworks-page {
+  background: linear-gradient(135deg, #1f2a40, #4f5f7d);
+  color: white;
+  min-height: 100vh;
+}
+
+.howitworks-main {
+  padding: 2rem 1.5rem;
+  text-align: left;
+}
+
+.howitworks-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  line-height: 1.9;
+}
+
+.howitworks-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.howitworks-highlight {
+  color: #3b82f6;
+}
+
+.howitworks-subtitle {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.howitworks-heading {
+  margin-top: 2.5rem;
+  font-size: 1.5rem;
+  color: #3b82f6;
+}
+
+.howitworks-list,
+.howitworks-features {
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+.howitworks-list li,
+.howitworks-features li {
+  margin-bottom: 0.75rem;
+}
+
+.howitworks-ending {
+  margin-top: 2rem;
+  font-style: italic;
+}

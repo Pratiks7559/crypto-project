@@ -1,0 +1,84 @@
+.blog-page {
+  background:linear-gradient(135deg, #1f2a40, #4f5f7d);
+  color: #23e12ff0;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.blog-content {
+  padding-top: 2rem;
+}
+
+.blog-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.blog-title {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  color: #6366f1;
+}
+
+.blog-subtitle {
+  font-size: 18px;
+  color: #b7cb23dc;
+  max-width: 900px;
+  margin-bottom: 2rem;
+}
+
+.blog-posts {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.blog-card {
+  background-color: #ebb5e0;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-bottom: 20px;
+}
+
+.blog-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.blog-card-title {
+  font-size: 22px;
+  margin-bottom: 8px;
+  color: #111;
+}
+
+.blog-card-date {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.8rem;
+}
+
+.blog-card-excerpt {
+  font-size: 1rem;
+  color: #333;
+}
+
+.blog-card-link {
+  margin-top: 0.8rem;
+  display: inline-block;
+  color: #007bff;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.blog-card-link:hover {
+  color: #0056b3;
+}
